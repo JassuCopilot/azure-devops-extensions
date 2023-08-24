@@ -253,7 +253,7 @@ function BugBashItemEditorPanelInternal(props: IBugBashItemEditorPanelOwnProps) 
                             className="bugbash-item-control"
                             label="Description"
                             disabled={isSaving}
-                            value={draftBugBashItem.description || ""}
+                            value={draftBugBashItem.description}
                             onChange={onDescriptionChange}
                             onImageUploadError={onImageUploadError}
                         />
